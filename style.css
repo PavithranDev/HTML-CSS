@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecedef;
+    padding: 0 20px;
+    height: 62px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-size: 28px;
+    color: #f15b3e;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.nav-links a.active {
+    color: #f15b3e;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #f15b3e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#home {
+    background-color: #000;
+    color: white;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    margin: 0;
+}
+
+.small {
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.big {
+    font-size: 50px;
+    margin: 0;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f3f5;
+    padding: 50px;
+    gap: 60px;
+}
+
+#bio h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bio img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#bio article {
+    margin: 10px;
+}
+
+#bio article p {
+    text-align: left;
+    max-width: 100%;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.resume-btn, .social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-btn {
+    background-color: #f15b3e;
+    color: white;
+}
+
+.resume-btn:hover {
+    background-color: #d14a2e;
+}
+
+.social-btn {
+    color: white;
+}
+
+.linkedin {
+    background-color: #0077b5; /* LinkedIn brand color */
+}
+
+.linkedin:hover {
+    background-color: #005582;
+}
+
+.github {
+    background-color: #333; /* GitHub brand color */
+}
+
+.github:hover {
+    background-color: #222;
+}
+
+#portfolio {
+    padding: 50px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
